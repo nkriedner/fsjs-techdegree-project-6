@@ -1,15 +1,15 @@
 {
-  "name": "fsjs-techdegree-project-6",
-  "version": "1.0.0",
-  "description": "This is my version of the Static Node & Express Site project for Teamtrehouse's FSJS-Techdegree",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Nils Kriedner",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.2",
-    "pug": "^3.0.2"
-  }
+    "name": "fsjs-techdegree-project-6",
+    "version": "1.0.0",
+    "description": "This is my version of the Static Node & Express Site project for Teamtrehouse's FSJS-Techdegree",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Nils Kriedner",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "pug": "^3.0.2"
+    }
 }
