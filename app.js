@@ -19,6 +19,15 @@ app.get("/about", (req, res) => {
     res.render("about");
 });
 
+app.get("/projects/:id", (req, res) => {
+    console.log("GET request to /projects/:id route...");
+    console.log(typeof parseInt(req.params.id));
+    const projectId = parseInt(req.params.id - 1);
+    const project = data.projects[projectId];
+    console.log(project);
+    res.render("project", { project });
+});
+
 app.listen(3000, () => {
     console.log("Server listening on port 3000.");
 });
