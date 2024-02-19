@@ -5,7 +5,7 @@ const app = express();
 
 // General settings & Middleware
 app.set("view engine", "pug");
-app.use(express.static("public"));
+app.use("/static", express.static("public"));
 
 // Routes
 app.get("/", (req, res) => {
