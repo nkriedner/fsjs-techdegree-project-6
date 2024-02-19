@@ -14,6 +14,11 @@ app.get("/", (req, res) => {
     res.render("index", { projects });
 });
 
+app.get("/about", (req, res) => {
+    console.log("GET request to /about route...");
+    res.render("about");
+});
+
 app.listen(3000, () => {
     console.log("Server listening on port 3000.");
 });
