@@ -4,7 +4,7 @@
             "id": 1,
             "project_name": "A Random Quote Generator",
             "description": "description follows...",
-            "technologies": "JavaScript",
+            "technologies": ["JavaScript"],
             "live_link": "https://nkriedner.github.io/fsjs-techdegree-project-1/",
             "github_link": "https://github.com/nkriedner/fsjs-techdegree-project-1",
             "image_urls": ["/static/images/weinmarie-webpage.JPG", "/static/images/coding-1.jpg"]
@@ -13,7 +13,7 @@
             "id": 2,
             "project_name": "Data Pagination and Filtering",
             "description": "description follows...",
-            "technologies": "JavaScript",
+            "technologies": ["JavaScript"],
             "live_link": "https://nkriedner.github.io/fsjs-techdegree-project-2/",
             "github_link": "https://github.com/nkriedner/fsjs-techdegree-project-2",
             "image_urls": ["/static/images/weinmarie-webpage.JPG", "/static/images/coding-1.jpg"]
@@ -22,7 +22,7 @@
             "id": 3,
             "project_name": "Interactive Form",
             "description": "description follows...",
-            "technologies": "JavaScript, Regex",
+            "technologies": ["JavaScript", "Regex"],
             "live_link": "https://nkriedner.github.io/fsjs-techdegree-project-3/",
             "github_link": "https://github.com/nkriedner/fsjs-techdegree-project-3",
             "image_urls": ["/static/images/weinmarie-webpage.JPG", "/static/images/coding-1.jpg"]
@@ -31,7 +31,7 @@
             "id": 4,
             "project_name": "OOP Game Show App",
             "description": "description follows...",
-            "technologies": "JavaScript, OOP",
+            "technologies": ["JavaScript", "OOP"],
             "live_link": "https://nkriedner.github.io/fsjs-techdegree-project-4/",
             "github_link": "https://github.com/nkriedner/fsjs-techdegree-project-4",
             "image_urls": ["/static/images/weinmarie-webpage.JPG", "/static/images/coding-1.jpg"]
