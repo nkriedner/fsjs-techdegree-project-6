@@ -7,7 +7,11 @@
             "technologies": ["JavaScript"],
             "live_link": "https://nkriedner.github.io/fsjs-techdegree-project-1/",
             "github_link": "https://github.com/nkriedner/fsjs-techdegree-project-1",
-            "image_urls": ["/static/images/weinmarie-webpage.JPG", "/static/images/coding-1.jpg"]
+            "image_urls": [
+                "/static/images/random-quote-generator-1.JPG",
+                "/static/images/random-quote-generator-2.JPG",
+                "/static/images/random-quote-generator-3.JPG"
+            ]
         },
         {
             "id": 2,
@@ -16,7 +20,11 @@
             "technologies": ["JavaScript"],
             "live_link": "https://nkriedner.github.io/fsjs-techdegree-project-2/",
             "github_link": "https://github.com/nkriedner/fsjs-techdegree-project-2",
-            "image_urls": ["/static/images/weinmarie-webpage.JPG", "/static/images/coding-1.jpg"]
+            "image_urls": [
+                "/static/images/data-pagination-filtering-1.JPG",
+                "/static/images/data-pagination-filtering-2.JPG",
+                "/static/images/data-pagination-filtering-3.JPG"
+            ]
         },
         {
             "id": 3,
@@ -25,7 +33,11 @@
             "technologies": ["JavaScript", "Regex"],
             "live_link": "https://nkriedner.github.io/fsjs-techdegree-project-3/",
             "github_link": "https://github.com/nkriedner/fsjs-techdegree-project-3",
-            "image_urls": ["/static/images/weinmarie-webpage.JPG", "/static/images/coding-1.jpg"]
+            "image_urls": [
+                "/static/images/interactive-form-1.JPG",
+                "/static/images/interactive-form-2.JPG",
+                "/static/images/interactive-form-3.JPG"
+            ]
         },
         {
             "id": 4,
@@ -34,7 +46,37 @@
             "technologies": ["JavaScript", "OOP"],
             "live_link": "https://nkriedner.github.io/fsjs-techdegree-project-4/",
             "github_link": "https://github.com/nkriedner/fsjs-techdegree-project-4",
-            "image_urls": ["/static/images/weinmarie-webpage.JPG", "/static/images/coding-1.jpg"]
+            "image_urls": [
+                "/static/images/oop-game-show-app-1.JPG",
+                "/static/images/oop-game-show-app-2.JPG",
+                "/static/images/oop-game-show-app-3.JPG"
+            ]
+        },
+        {
+            "id": 5,
+            "project_name": "Employee Directory",
+            "description": "description follows...",
+            "technologies": ["JavaScript", "OOP"],
+            "live_link": "https://nkriedner.github.io/fewd-techdegree-project-8/",
+            "github_link": "https://github.com/nkriedner/fewd-techdegree-project-8",
+            "image_urls": [
+                "/static/images/employee-directory-1.JPG",
+                "/static/images/employee-directory-2.JPG",
+                "/static/images/employee-directory-3.JPG"
+            ]
+        },
+        {
+            "id": 6,
+            "project_name": "Capstone Portfolio",
+            "description": "description follows...",
+            "technologies": ["JavaScript", "OOP"],
+            "live_link": "https://nkriedner.github.io/fewd-techdegree-project-9/",
+            "github_link": "https://github.com/nkriedner/fewd-techdegree-project-9",
+            "image_urls": [
+                "/static/images/capstone-portfolio-1.JPG",
+                "/static/images/capstone-portfolio-2.JPG",
+                "/static/images/capstone-portfolio-3.JPG"
+            ]
         }
     ]
 }
