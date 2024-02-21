@@ -1,13 +1,15 @@
+// IMPORT MODULES & DATA
 const express = require("express");
 const data = require("./data.json");
 
+// CREATE EXPRESS APP
 const app = express();
 
-// General settings & Middleware
+// GENERAL SETTINGS & MIDDLEWARE
 app.set("view engine", "pug");
 app.use("/static", express.static("public"));
 
-// Routes
+// ROUTE HANDLERS
 app.get("/", (req, res) => {
     const projects = data.projects;
     res.render("index", { projects });
@@ -32,9 +34,8 @@ app.get("/projects/:id", (req, res) => {
     }
 });
 
-/******************
- * ERROR HANDLING *
- *****************/
+// ERROR HANDLING
+
 // To catch undefined or non-existent route requests:
 app.use((req, res, next) => {
     const err = new Error("the requested page was not found.");
@@ -52,6 +53,7 @@ app.use((err, req, res, next) => {
     }
 });
 
+// START APP ON PORT 3000
 app.listen(3000, () => {
     console.log("Server listening on port 3000.");
 });
