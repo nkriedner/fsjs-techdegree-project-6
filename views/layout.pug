@@ -5,6 +5,14 @@ html(lang="en" dir="ltr")
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
+
+
+    link(rel='preconnect' href='https://fonts.googleapis.com')
+    link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+    link(href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet")
+
+
+
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/normalize.css')
     link(rel='stylesheet', href='/static/css/styles.css')
@@ -17,22 +25,14 @@ html(lang="en" dir="ltr")
         .thumbnail-box
           img.thumbnail(src='/static/images/nils-kriedner.jpg', alt='nils in nature')
         .dev-intro-box
-
-          //- Replace with your name
           h5 Nils Kriedner
-
-          //- Replace with description of who you are, what you do, and why you are so awesome
           p I'm Nils, a web developer and meditation facilitator, currently living in Berlin. 
-
-          //- Add path from your '/about' route handler to the href below
           a(href='/about') Learn More &rarr;
 
     .wrapper
       .header
         .header-info-box
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
-
-          //- Replace with your name — this is for the mobile layout
           span Nils Kriedner
 
       block content

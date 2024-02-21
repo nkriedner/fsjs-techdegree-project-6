@@ -1,3 +1,10 @@
 This is my version of the "**Static Node.js and Express Site**" project for **Teamtreehouse's Full Stack JavaScript Techdegree**.
 
 Starter files in Commit 1 were provided, the rest of the code and files were created and added by myself.
+
+CUSTOM CSS for "Exceeds Grade":
+
+-   background-color for .sidebar (gradient)
+-   color(s) for .sidebar text
+-   fonf-family for .sidebar h5
+-   color transition for .sidebar a on :hover

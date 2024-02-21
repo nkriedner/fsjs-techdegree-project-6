@@ -3,6 +3,9 @@ extends layout.pug
 block content
 
     .custom-page 
-        h1= err.message 
-        h2 Status Code: #{err.status}
-        a(href="/") Back to Home
+        h1 Sorry, #{err.message} 
+        h2 (Status Code: #{err.status})
+        a(href="/") Home &rarr;
+    
+    .custom-page 
+        img(src="/static/images/error-image.jpeg" alt="error")

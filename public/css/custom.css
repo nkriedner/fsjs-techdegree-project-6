@@ -1,6 +1,7 @@
 .custom-page {
     padding: 2rem;
     background-color: maroon;
+    background-color: hsl(195, 35%, 39%);
     color: white;
 }
 
@@ -9,8 +10,49 @@
     font-size: 2rem;
 }
 
+.custom-page h2 {
+    font-size: 1.5em;
+    font-style: italic;
+    color: orange;
+}
+
+.custom-page img {
+    max-width: 100%;
+    border: 5px solid hsl(195, 35%, 19%);
+    border-radius: 10px;
+}
+
 .custom-page a {
     color: greenyellow;
     font-size: 1.5rem;
     text-decoration: underline;
+}
+
+.sidebar {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+.sidebar .thumbnail {
+    border-radius: 10px;
+    border-width: 3px;
+}
+
+.sidebar h5 {
+    color: hsl(80, 61%, 90%);
+    font-family: "Dancing Script", cursive !important;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+}
+.sidebar p {
+    color: hsl(80, 61%, 90%);
+}
+
+.sidebar a {
+    color: orange;
+    color: hsl(80, 61%, 45%);
+    transition: all 0.5s;
+}
+
+.sidebar a:hover {
+    color: hsl(80, 61%, 60%);
 }
