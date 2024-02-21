@@ -1,3 +1,8 @@
+html,
+body {
+    height: auto;
+}
+
 .custom-page {
     padding: 2rem;
     background-color: maroon;
@@ -54,4 +59,10 @@
 
 .sidebar a:hover {
     color: hsl(80, 61%, 60%);
+}
+
+.about-intro-box.box img {
+    width: 90%;
+    margin-top: 2rem;
+    border-radius: 5px;
 }
