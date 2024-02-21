@@ -21,20 +21,17 @@ app.get("/about", (req, res) => {
 
 app.get("/projects/:id", (req, res) => {
     console.log("GET request to /projects/:id route...");
-    console.log("typeof project id:", typeof parseInt(req.params.id));
     const projectId = parseInt(req.params.id - 1);
     const project = data.projects[projectId];
-    console.log("project:", project);
     // If the project is undefined:
     if (project === undefined) {
-        console.log("The project is undefined");
         const err = new Error("There is no project matching the id in the url.");
         err.status = 404;
-        console.log(err.message, err.status);
-        return res.status(err.status).render("page-not-found", { err });
-        // return next(err);
+        console.log(err.status, err.message);
+        res.status(err.status).render("page-not-found", { err });
+    } else {
+        res.render("project", { project });
     }
-    res.render("project", { project });
 });
 
 /******************
@@ -42,13 +39,13 @@ app.get("/projects/:id", (req, res) => {
  *****************/
 // To catch undefined or non-existent route requests:
 app.use((req, res, next) => {
-    console.log("Undefined or non-existent route request...");
+    console.log("Requesting an undefined route...");
 
     // Set the response status to 404 and render the 'page-not-found' page
     // res.status(404).render("page-not-found");
     const err = new Error("The requested page was not found.");
     err.status = 404;
-    console.log(err.message, err.status);
+    console.log(err.status, err.message);
     next(err);
 });
 
@@ -63,13 +60,6 @@ app.use((err, req, res, next) => {
         err.message = err.message || "Unfortunately something went wrong...";
         res.status((err.status = err.status || 500)).render("error", { err });
     }
-    // res.locals.error = err;
-    // res.status(err.status);
-    // console.log(err);
-    // console.log("test");
-    // res.send(`${err.message} (Statuscode: ${err.status}) - ${err.stack}`);
-    // res.render("page-not-found", { err });
-    // res.render("error", err);
 });
 
 app.listen(3000, () => {

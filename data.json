@@ -3,7 +3,7 @@
         {
             "id": 1,
             "project_name": "A Random Quote Generator",
-            "description": "description follows...",
+            "description": "In this project I had to use basic JavaScript syntax, variables, loops, conditionals, and object literals to create an app that displays random famous quotes each time a button is clicked.",
             "technologies": ["JavaScript"],
             "live_link": "https://nkriedner.github.io/fsjs-techdegree-project-1/",
             "github_link": "https://github.com/nkriedner/fsjs-techdegree-project-1",
@@ -16,7 +16,7 @@
         {
             "id": 2,
             "project_name": "Data Pagination and Filtering",
-            "description": "description follows...",
+            "description": "For this project, I had to use a common web development technique known as “pagination” to enhance the usability of a web page. I received a file that contains information for 42 students, including name, email, and picture. I then had to use my JavaScript skills to display the first nine students on the page, and then you add navigation, also known as pagination buttons, that the user can click to display different pages of students.",
             "technologies": ["JavaScript"],
             "live_link": "https://nkriedner.github.io/fsjs-techdegree-project-2/",
             "github_link": "https://github.com/nkriedner/fsjs-techdegree-project-2",
@@ -29,7 +29,7 @@
         {
             "id": 3,
             "project_name": "Interactive Form",
-            "description": "description follows...",
+            "description": "For this project I was asked to use JavaScript and Regex to add customized behavior and interactivity to an interactive registration form of a fictional Full Stack conference to enhance accessibility and user-friendliness.",
             "technologies": ["JavaScript", "Regex"],
             "live_link": "https://nkriedner.github.io/fsjs-techdegree-project-3/",
             "github_link": "https://github.com/nkriedner/fsjs-techdegree-project-3",
@@ -42,8 +42,8 @@
         {
             "id": 4,
             "project_name": "OOP Game Show App",
-            "description": "description follows...",
-            "technologies": ["JavaScript", "OOP"],
+            "description": "In this project, I had to create a browser-based, word guessing game, using JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.",
+            "technologies": ["JavaScript", "Object-Oriented Programming"],
             "live_link": "https://nkriedner.github.io/fsjs-techdegree-project-4/",
             "github_link": "https://github.com/nkriedner/fsjs-techdegree-project-4",
             "image_urls": [
@@ -55,8 +55,8 @@
         {
             "id": 5,
             "project_name": "Employee Directory",
-            "description": "description follows...",
-            "technologies": ["JavaScript", "OOP"],
+            "description": "For this project I was asked to use the Fetch API and the Random User Generator API to grab information for 12 random 'employees', and then to use the data to build a prototype for a fictional Startup employee directory.",
+            "technologies": ["CSS Grid", "JavaScript", "AJAX", "Fetch API"],
             "live_link": "https://nkriedner.github.io/fewd-techdegree-project-8/",
             "github_link": "https://github.com/nkriedner/fewd-techdegree-project-8",
             "image_urls": [
@@ -68,8 +68,8 @@
         {
             "id": 6,
             "project_name": "Capstone Portfolio",
-            "description": "description follows...",
-            "technologies": ["JavaScript", "OOP"],
+            "description": "For the final project for Teamtreehouse's Frontend Web Development Techdegree I had to show all my frontend skills to create my own portfolio page, displaying some of my projects, as well as an 'About' and a 'Contact' section.",
+            "technologies": ["HTML", "CSS", "Flexbox", "Grid", "JavaScript", "SVG"],
             "live_link": "https://nkriedner.github.io/fewd-techdegree-project-9/",
             "github_link": "https://github.com/nkriedner/fewd-techdegree-project-9",
             "image_urls": [

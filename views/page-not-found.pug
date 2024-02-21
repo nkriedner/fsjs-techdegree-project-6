@@ -2,5 +2,7 @@ extends layout.pug
 
 block content
 
-    h1= err.message 
-    h2= err.status
+    .custom-page 
+        h1= err.message 
+        h2 Status Code: #{err.status}
+        a(href="/") Back to Home
