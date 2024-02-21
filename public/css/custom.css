@@ -48,7 +48,6 @@
 }
 
 .sidebar a {
-    color: orange;
     color: hsl(80, 61%, 45%);
     transition: all 0.5s;
 }
