@@ -8,3 +8,5 @@ CUSTOM CSS for "Exceeds Grade" (-> custom.css):
 -   color(s) for .sidebar text
 -   fonf-family for .sidebar h5
 -   color transition for .sidebar a on :hover
+
+Live Page: https://fsjs-techdegree-project-6.onrender.com/projects/6
