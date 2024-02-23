@@ -3,6 +3,10 @@ body {
     height: auto;
 }
 
+.wrapper {
+    min-height: 100vh;
+}
+
 .custom-page {
     padding: 2rem;
     background-color: maroon;
