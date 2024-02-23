@@ -53,7 +53,8 @@ app.use((err, req, res, next) => {
     }
 });
 
-// START APP ON PORT 3000
-app.listen(3000, () => {
+// START APP ON PORT 3000 (if no environment variable is set)
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
     console.log("Server listening on port 3000.");
 });
