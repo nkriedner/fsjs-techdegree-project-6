@@ -9,4 +9,5 @@ CUSTOM CSS for "Exceeds Grade" (-> custom.css):
 -   fonf-family for .sidebar h5
 -   color transition for .sidebar a on :hover
 
-Live Page: https://fsjs-techdegree-project-6.onrender.com/projects/6
+Live Page: https://fsjs-techdegree-project-6.onrender.com
+(might take up to 20 seconds to load when reactivated - as it is on free hosted package)
